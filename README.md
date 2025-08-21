@@ -1,6 +1,14 @@
 # boot-with-mqtt-and-eclipse-paho-integration
 boot with mqtt integration mqtt uses internally eclipse paho
 
+# Spring Integration MQTT uses the Eclipse Paho Java Client as its transport layer. It wraps Paho’s core functionality with Spring’s messaging abstractions—like MessageChannel, MessageHandler, and IntegrationFlow.
+So when you use:
+<artifactId>spring-integration-mqtt</artifactId>
+
+
+You're essentially leveraging Paho—but with Spring's declarative configuration, lifecycle management, and integration patterns layered on top.
+
+
 ![mqtt](./mqtt%20explorer%20use%20connection%20screenshot.png)
 
 Spring Integration MQTT setup. Let me walk you through each part of your configuration and explain **why changing the topic still works**. -> for dynamic topics
