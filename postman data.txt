@@ -1,0 +1,6 @@
+post url : localhost:8080/sendMessage
+
+{
+    "message": "hello",
+    "topic": "mytopic"
+}
